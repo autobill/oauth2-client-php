@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <api>
-    <apiUrl>https://dev-api.autobill.com</apiUrl>
-    <appUrl>https://dev-app.autobill.com</appUrl>
+    <apiUrl>https://api.autobill.com</apiUrl>
+    <appUrl>https://app.autobill.com</appUrl>
     <clientId></clientId>
     <clientSecret></clientSecret>
     <refreshToken></refreshToken>
