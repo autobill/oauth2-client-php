@@ -3,8 +3,9 @@
 **Assumption**
 This client is located at http://localhost/oauth2-client-php
 
-**Please make sure**
-util/apiConfig.xml is writable
+**Please notice**
+1. util/apiConfig.xml is writable
+2. For internal development, in the instruction below, use https://dev-app.autobill.com in place of https://app.autobill.com, and https://dev-api.autobill.com in place of https://api.autobill.com. 
 
 ## Step-1: Create Application
 
