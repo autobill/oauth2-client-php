@@ -4,7 +4,7 @@ require_once "util/apiCaller.php";
 
 $apiCaller = new ApiCaller();
 if(!array_key_exists("code",$_REQUEST)){
-    echo "<script type='text/javascript'>window.location.href = 'index.php?msg=Invalid parameters'</script>";
+    echo "<script type='text/javascript'>window.location.href = 'index.php?msg=Invalid parameters.'</script>";
 }else{
     $code = $_REQUEST["code"];
     $data = $apiCaller->getAccessToken($code);
